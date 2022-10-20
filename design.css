@@ -43,10 +43,15 @@
 
   }
 
-  #logo {
+   #logo {
 
-    transition: 0.5s;
-	filter: drop-shadow(0 0 0.75rem rgb(29, 69, 143));
+    transition: all 0.25s;
+	  filter: drop-shadow(0 0 0.75rem rgb(29, 69, 143));
+  }
+
+  #logo:hover {
+    filter: drop-shadow(0 0 1rem rgb(93, 113, 151));
+    transform: translateY(-0.25em);  
   }
   
   h1 {
