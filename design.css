@@ -42,5 +42,8 @@ h1 {
   letter-spacing: .125rem;
   text-transform: uppercase;
   font-size:xx-large;
+  position: absolute;
+  left: 70px;
+  top:60px;
   
 }
